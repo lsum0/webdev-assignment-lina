@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لينا سعود المطرفي - Portfolio 2025 Enhanced</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle">
+                    <span class="logo-text">ل</span>
+                </div>
+                <div class="loading-rings">
+                    <div class="ring ring-1"></div>
+                    <div class="ring ring-2"></div>
+                    <div class="ring ring-3"></div>
+                </div>
+            </div>
+            <div class="loading-text">
+                <span class="loading-message">مرحباً بكم في عالمي الرقمي</span>
+                <div class="loading-progress">
+                    <div class="progress-bar"></div>
+                    <span class="progress-text">0%</span>
+                </div>
+            </div>
+        </div>
+        <div class="loading-particles" id="loading-particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-circle">
+                    <span class="logo-text">ل</span>
+                </div>
+                <div class="logo-info">
+                    <span class="logo-name">لينا المطرفي</span>
+                    <span class="logo-title">Portfolio 2025</span>
+                </div>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <span class="nav-icon"><i class="fas fa-home"></i></span>
+                        <span class="nav-text">الرئيسية</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <span class="nav-icon"><i class="fas fa-user"></i></span>
+                        <span class="nav-text">عني</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <span class="nav-icon"><i class="fas fa-code"></i></span>
+                        <span class="nav-text">المهارات</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <span class="nav-icon"><i class="fas fa-rocket"></i></span>
+                        <span class="nav-text">المشاريع</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">
+                        <span class="nav-icon"><i class="fas fa-certificate"></i></span>
+                        <span class="nav-text">الشهادات</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-icon"><i class="fas fa-envelope"></i></span>
+                        <span class="nav-text">التواصل</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </li>
+            </ul>
+            
+            <div id="hamburger" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-particles" id="hero-particles"></div>
+            <div class="hero-orbs">
+                <div class="orb orb-1"></div>
+                <div class="orb orb-2"></div>
+                <div class="orb orb-3"></div>
+                <div class="orb orb-4"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="greeting-icon">✨</span>
+                        <span class="greeting-text">مرحباً بكم في عالمي الرقمي</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="title-line">أنا</span>
+                        <span class="title-name">لينا سعود المطرفي</span>
+                        <span class="title-role" id="typed-text"></span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        طالبة علوم حاسب بجامعة أم القرى، مهتمة بتخصص علم البيانات والذكاء الاصطناعي،  
+                                        وأعمل على تعميق معرفتي في مجالات تعلُّم الآلة وتحليل البيانات.  
+                    أبحث دائمًا عن فرص لاكتساب خبرات عملية وتوسيع مداركي في أحدث تقنيات الذكاء الاصطناعي.  
+                         إلى جانب ذلك، أمتلك شغفًا بتصميم تجربة المستخدم وواجهات الاستخدام (UX/UI)،   
+                      وأسعى للدمج بين الجوانب التقنية والإبداعية لتقديم حلول مبتكرة وفعالة. </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="2026">2026</div>
+                            <div class="stat-label">سنة التخرج</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="5">5+</div>
+                            <div class="stat-label">مشاركة هاكثون</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="3">3</div>
+                            <div class="stat-label">تدريبات متخصصة</div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#about" class="btn btn-primary">
+                            <span class="btn-text">اكتشف المزيد</span>
+                            <span class="btn-icon"><i class="fas fa-arrow-down"></i></span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span class="btn-text">تواصل معي</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-avatar">
+                        <div class="avatar-circle">
+                            <span class="avatar-text">ل</span>
+                        </div>
+                        <div class="avatar-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                        <div class="floating-icons">
+                            <div class="floating-icon" data-icon="java">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="powerbi">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="design">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="data">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-text">تمرير للأسفل</div>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">نبذة عني</h2>
+                <div class="section-subtitle">تعرف على قصتي وشغفي</div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="quote-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p class="quote-text">
+                            "أسعى لاكتساب أقصى قدر من الخبرات في مجال علوم الحاسب والذكاء الاصطناعي، 
+                            وأؤمن بقوة التقنية في تغيير العالم للأفضل."
+                        </p>
+                    </div>
+                    
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>التعليم</h4>
+                            <p>طالبة علوم حاسب في جامعة أم القرى، متوقع التخرج 2026</p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>الشغف</h4>
+                            <p>علم البيانات، الذكاء الاصطناعي، تصميم UX/UI، والمشاركة في الهاكثونات</p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-target"></i>
+                            </div>
+                            <h4>الهدف</h4>
+                            <p>تطوير حلول تقنية مبتكرة تساهم في تحسين حياة الناس وتطوير المجتمع</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">مهاراتي التقنية</h2>
+                <div class="section-subtitle">الأدوات والتقنيات التي أتقنها</div>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="java">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3>Java Programming</h3>
+                        <p>لغة البرمجة الأساسية</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="80"></div>
+                            <span class="progress-text">80%</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">OOP</span>
+                            <span class="tag">Spring</span>
+                            <span class="tag">Data Structures</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card" data-skill="powerbi">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Power BI</h3>
+                        <p>تحليل وتصور البيانات</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="60"></div>
+                            <span class="progress-text">60%</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Dashboards</span>
+                            <span class="tag">DAX</span>
+                            <span class="tag">Reports</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card" data-skill="ux">
+                        <div class="skill-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>UX/UI Design</h3>
+                        <p>تصميم تجربة المستخدم</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="85"></div>
+                            <span class="progress-text">85%</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">User Research</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card" data-skill="excel">
+                        <div class="skill-icon">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h3>Microsoft Excel</h3>
+                        <p>تحليل البيانات المتقدم</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="90"></div>
+                            <span class="progress-text">90%</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Pivot Tables</span>
+                            <span class="tag">VBA</span>
+                            <span class="tag">Advanced Functions</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card" data-skill="data">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Data Science</h3>
+                        <p>علم البيانات والتحليل</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="75"></div>
+                            <span class="progress-text">75%</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Statistics</span>
+                            <span class="tag">Visualization</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card" data-skill="ai">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Artificial Intelligence</h3>
+                        <p>الذكاء الاصطناعي</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="65"></div>
+                            <span class="progress-text">65%</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Neural Networks</span>
+                            <span class="tag">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="soft-skills">
+                    <h3>المهارات الشخصية</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>حل المشكلات</h4>
+                            <p>قدرة عالية على تحليل المشكلات وإيجاد حلول إبداعية</p>
+                        </div>
+                        
+                        <div class="soft-skill">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>العمل الجماعي</h4>
+                            <p>خبرة في العمل ضمن فرق متنوعة وتحقيق الأهداف المشتركة</p>
+                        </div>
+                        
+                        <div class="soft-skill">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4>التواصل الفعال</h4>
+                            <p>مهارات تواصل ممتازة في البيئات الأكاديمية والمهنية</p>
+                        </div>
+                        
+                        <div class="soft-skill">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4>الابتكار</h4>
+                            <p>شغف بالابتكار والبحث عن طرق جديدة لتطوير الحلول</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">مشاريعي ومشاركاتي</h2>
+                <div class="section-subtitle">نظرة على أعمالي وإنجازاتي</div>
+            </div>
+            
+            <div class="projects-content">
+                <div class="hackathons-section">
+                    <div class="hackathons-header">
+                        <div class="hackathons-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>مشاركات الهاكثونات</h3>
+                        <p>شاركت في العديد من الهاكثونات المحلية والإقليمية، حيث تعاونت مع فرق متنوعة لتطوير حلول تقنية مبتكرة في مجالات الذكاء الاصطناعي وعلم البيانات.</p>
+                    </div>
+                    
+                    <div class="hackathons-stats">
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="5">5+</div>
+                            <div class="stat-label">مشاركة</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="1">1</div>
+                            <div class="stat-label">جوائز</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="3">3</div>
+                            <div class="stat-label">مجالات</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>مشاريع تطوير الويب</h4>
+                        <p>تطوير مواقع ويب تفاعلية ومتجاوبة</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>مشاريع علم البيانات</h4>
+                        <p>تحليل البيانات وإنشاء تصورات بيانية</p>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>مشاريع الذكاء الاصطناعي</h4>
+                        <p>تطوير نماذج التعلم الآلي</p>
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>مشاريع UX/UI</h4>
+                        <p>تصميم تجارب مستخدم متميزة</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">User Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    
+                
+     <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">الشهادات والإنجازات</h2>
+                <div class="section-subtitle">رحلتي التعليمية</div>
+                <p>الشهادات والدورات التي حصلت عليها في مجال التقنية</p>
+            </div>
+            
+            <div class="certificates-stats">
+                <div class="cert-stat">
+                    <div class="cert-stat-number">17</div>
+                    <div class="cert-stat-label">شهادة</div>
+                </div>
+                <div class="cert-stat">
+                    <div class="cert-stat-number">5</div>
+                    <div class="cert-stat-label">مؤسسة</div>
+                </div>
+                <div class="cert-stat">
+                    <div class="cert-stat-number">120</div>
+                    <div class="cert-stat-label">ساعة تدريب</div>
+                </div>
+            </div>
+            
+            <div class="certificates-filters">
+                <div class="filter-buttons">
+                    <div class="filter-btn active" data-filter="all">
+                        جميع الشهادات
+                        <span class="filter-count">17</span>
+                    </div>
+                    <div class="filter-btn" data-filter="coursera">
+                        Coursera
+                        <span class="filter-count">3</span>
+                    </div>
+                    <div class="filter-btn" data-filter="bank">
+                        البنك السعودي الفرنسي
+                        <span class="filter-count">10</span>
+                    </div>
+                    <div class="filter-btn" data-filter="tuwaiq">
+                               منصة سطر
+                        <span class="filter-count">1</span>
+                    </div>
+                    <div class="filter-btn" data-filter="university">
+                        الجامعة
+                        <span class="filter-count">2</span>
+                    </div>
+                    <div class="filter-btn" data-filter="other">
+                        أخرى
+                        <span class="filter-count">1</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificates-grid">
+
+
+                <!-- Coursera Certificates -->
+
+
+                <div class="certificate-card" data-category="coursera">
+                    <div class="certificate-image" onclick="openCertificate('Cou Fun.pdf')">
+                        <div class="certificate-preview">
+                          <img src="Cou Fu.jpeg" alt="   شهادة كورسيرا   ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge coursera">COURSERA</div>
+                        <h3>Foundations: Data, Data, Everywhere</h3>
+                        <p>شهادة احترافية في تحليل البيانات من Google عبر Coursera</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> Google/Coursera</span>
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-category="coursera">
+                    <div class="certificate-image" onclick="openCertificate('Cou Ask.pdf')">
+                        <div class="certificate-preview">
+                             <img src="Cou Ask.jpeg" alt="  شهادة كورسيرا ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge coursera">COURSERA</div>
+                        <h3>Ask Questions to Make Data‑Driven Decisions</h3>
+                        <p>دورة متقدمة في تحليل البيانات باستخدام Python</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> Coursera</span>
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-category="coursera">
+                    <div class="certificate-image" onclick="openCertificate('Cou Pre.pdf')">
+                        <div class="certificate-preview">
+                             <img src="Cou Pre.jpeg" alt="  شهادة حضور  كورسيرا ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge coursera">COURSERA</div>
+                        <h3>Prepare Data for Exploration</h3>
+                        <p>الجزء الثالث من برنامج Google لتحليل البيانات</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> Google/Coursera</span>
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البنك السعودي الفرنسي و هاكثون الصناعهCertificates و ( شهادات) -->
+
+
+
+                <div class="certificate-card" data-category="bank">
+                    <div class="certificate-image" onclick="openCertificate('BSF.pdf')">
+                        <div class="certificate-preview">
+                             <img src="14.jpeg" alt="  شهادة حضور  ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge bank">البنك السعودي الفرنسي</div>
+                        <h3>شهادة البنك السعودي الفرنسي</h3>
+                        <p>دورة تدريبية في المجال المصرفي والمالي</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> البنك السعودي الفرنسي</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-category="bank">
+                    <div class="certificate-image" onclick="openCertificate('bsf10.pdf')">
+                        <div class="certificate-preview">
+                            <img src="10.jpeg" alt="  شهادة حضور   ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge bank">البنك السعودي الفرنسي</div>
+                        <h3>شهادة البنك السعودي الفرنسي - المستوى الثاني</h3>
+                        <p>دورة متقدمة في الخدمات المصرفية والمالية</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> البنك السعودي الفرنسي</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-category="bank">
+                    <div class="certificate-image" onclick="openCertificate('bsf4.pdf')">
+                        <div class="certificate-preview">
+                             <img src="BSF4.jpeg" alt="  شهادة حضور   ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge bank">البنك السعودي الفرنسي</div>
+                        <h3>شهادة الذكاء العاطفي</h3>
+                        <p>دورة في تطوير الذكاء العاطفي والمهارات الشخصية</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> البنك السعودي الفرنسي</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+                
+
+                <div class="certificate-card" data-category="bank">
+                    <div class="certificate-image" onclick="openCertificate('other4.pdf')">
+                        <div class="certificate-preview">
+                            <img src="8.jpeg" alt="  شهادة حضور   ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge bank">البنك السعودي الفرنسي</div>
+                        <h3>شهادة إنجاز تابعة للبنك السعودي الفرنسي</h3>
+                        <p>شهادة إنجاز في برنامج تدريبي متخصص</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> البنك السعودي الفرنسي</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-category="bank">
+                    <div class="certificate-image" onclick="openCertificate('other.pdf')">
+                        <div class="certificate-preview">
+                             <img src="4.jpeg" alt="  شهادة حضور   ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge bank">البنك السعودي الفرنسي</div>
+                        <h3>شهادة مشاركة تابعة البنك السعودي الفرنسي</h3>
+                        <p>شهادة مشاركة في ورشة عمل تخصصية</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> البنك السعودي الفرنسي</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-category="bank">
+                    <div class="certificate-image" onclick="openCertificate('BSF.pdf')">
+                        <div class="certificate-preview">
+                             <img src="BSFF.jpeg" alt="  شهادة حضور   ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge bank">البنك السعودي الفرنسي</div>
+                        <h3>شهادة تدريب متقدم - البنك السعودي الفرنسي</h3>
+                        <p>شهادة في برنامج تدريبي متقدم</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> البنك السعودي الفرنسي</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="certificate-card" data-category="industry">
+                    <div class="certificate-image" onclick="openCertificate('hakthon.pdf')">
+                        <div class="certificate-preview">
+                             <img src="hakton.jpeg" alt="  شهادة حضور   ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge industry">وزارة الصناعة</div>
+                        <h3>شهادة حضور هاكثون الصناعة </h3>
+                        <p>شهادة في برنامج تدريبي متقدم</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> البنك السعودي الفرنسي</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- أكاديمية طويق Certificate -->
+                <div class="certificate-card" data-category="Sater">
+                    <div class="certificate-image" onclick="openCertificate('twiq.png')">
+                        <div class="certificate-preview">
+                            <img src="twiq.png" alt="شهادة منصة سطر">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge tuwaiq"> منصة سطر </div>
+                        <h3>مستوى مبتدئ تمثيل البيانات: مكتبة Seaborn</h3>
+                        <p>دورة في تمثيل البيانات باستخدام مكتبة Seaborn</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i>  منصة سطر</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- جامعة أم القرى Certificates -->
+                <div class="certificate-card" data-category="university">
+                    <div class="certificate-image" onclick="openCertificate('uqu.pdf')">
+                        <div class="certificate-preview">
+                       <img src="uqubin.jpeg" alt="  شهادة حضور هاكثون بن محفوظ">
+                            
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge university">جامعة أم القرى</div>
+                        <h3>شهادة حضور فعالية</h3>
+                        <p>شهادة حضور فعالية من جامعة أم القرى</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> جامعة أم القرى</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-category="university">
+                    <div class="certificate-image" onclick="openCertificate('uqu2.pdf')">
+                        <div class="certificate-preview">
+                            <img src="uqu.jpeg" alt="  شهادة حضور  ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge university">جامعة أم القرى</div>
+                        <h3>شهادة حضور وتقدير مبادرة الإشراف المهني </h3>
+                        <p>شهادة تقدير من جامعة أم القرى</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> جامعة أم القرى</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- شهادات أخرى -->
+                <div class="certificate-card" data-category="other">
+                    <div class="certificate-image" onclick="openCertificate('other 2.pdf')">
+                        <div class="certificate-preview">
+                            <img src="7.jpeg" alt="  شهادة حضور  ">
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn">
+                                <i class="fas fa-eye"></i>
+                                <span>عرض الشهادة</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-badge other">أخرى</div>
+                        <h3>شهادة في إدارة الأعمال</h3>
+                        <p>شهادة تدريبية في مجال إدارة الأعمال والقيادة</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-building"></i> مؤسسة تدريبية</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            
+            <div class="certificates-cta">
+                <p>أسعى دائماً لتطوير مهاراتي والحصول على المزيد من الشهادات المتخصصة في مجالات التقنية والذكاء الاصطناعي</p>
+                <a href="#contact" class="btn btn-primary">
+                    <span class="btn-text">تواصل معي</span>
+                    <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معي</h2>
+                <div class="section-subtitle">معلومات التواصل</div>
+                <p>يسعدني التواصل معك</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>البريد الإلكتروني</h4>
+                        <a href="mailto:linasaud@Outlook.sa">linasaud@Outlook.sa</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>رقم الهاتف</h4>
+                        <span>0542048050</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>الموقع</h4>
+                        <span>مكة المكرمة، السعودية</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="الاسم الكامل" required>
+                            <label for="name">الاسم الكامل</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" required>
+                            <label for="email">البريد الإلكتروني</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="الموضوع" required>
+                            <label for="subject">الموضوع</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="الرسالة" rows="5" required></textarea>
+                            <label for="message">الرسالة</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text">إرسال الرسالة</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 لينا سعود المطرفي. جميع الحقوق محفوظة.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div class="certificate-modal" id="certificate-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeCertificateModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modal-body">
+                <!-- Certificate content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
