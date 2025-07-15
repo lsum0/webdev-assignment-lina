@@ -79,7 +79,7 @@ The website is fully client-side, built from scratch without frameworks, and inc
 
 | Hero Section | Skills Section | Certificate Modal |
 |--------------|----------------|-------------------|
-| ![Hero](images/screenshot-hero.png) | ![Skills](images/screenshot-skills.png) | ![Modal](images/screenshot-certificate.png) |
+| ![Hero](Interface.png) | ![Skills](Skills.png) | ![Modal](Certificate.png) |
 
 ---
 
