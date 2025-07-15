@@ -4,6 +4,9 @@
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JS](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
+[شاهد الفيديو على Google Drive](https://drive.google.com/file/d/1XeLjdJ0o5ws5biQIKV7xajbpkRxTG097/view?pli=1)
+
+
 
 A modern, responsive, and fully animated personal portfolio website designed and developed using **HTML**, **CSS**, and **JavaScript**. This project serves as a digital résumé and showcase for my skills, certifications, projects, and contact information — all styled with attention to detail, animations, and interactivity.
 
