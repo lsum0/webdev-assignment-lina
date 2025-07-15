@@ -124,7 +124,7 @@ This outlines the user flow and structure of the website:
 
 - PDF certificates (BSF, Coursera, UQU, etc.)
 - Image previews for Coursera, Sater, and Hackathon events
-- Personal avatar/logo (optional)
+- Personal avatar/logo 
 - Animated particles background (using Particles.js)
 - 🖼️ Coursera Certificates (Images):
 
