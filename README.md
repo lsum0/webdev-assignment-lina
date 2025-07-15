@@ -1,10 +1,10 @@
-# 💼 Lina Almutrafi – Personal Portfolio Website (2025)
+#  Lina Almutrafi – Personal Portfolio Website (2025)
 
 A modern, responsive, and fully animated personal portfolio website designed and developed using **HTML**, **CSS**, and **JavaScript**. This project serves as a digital résumé and showcase for my skills, certifications, projects, and contact information — all styled with attention to detail, animations, and interactivity.
 
 ---
 
-## 1. 🧠 Project Description
+## 1.  Project Description 🧠 :
 
 This personal portfolio aims to professionally present my background in **Computer Science**, with a focus on:
 
@@ -17,7 +17,7 @@ The website is fully client-side, built from scratch without frameworks, and inc
 
 ---
 
-## 2. 🛠️ Tools & Technologies Used
+## 2.  Tools & Technologies Used 🛠️ :
 
 | Tool/Library             | Purpose                                |
 |--------------------------|----------------------------------------|
@@ -33,5 +33,64 @@ The website is fully client-side, built from scratch without frameworks, and inc
 
 ---
 
-## 3. 📂 Project Structure
+## 3.  Project Structure 📂 :
+📦 portfolio-website/
+├── index.html
+├── styles.css
+├── script.js
+├── images
+│   ├── BSF.jpeg
+│   ├── Courser.jpeg
+|   ├── Sater.jpeg
+|   ├── Hakthon.jpeg
+|   ├── UQU.jpeg
+|   ├── Other.jpeg
+│  
+│  
+|___Pdf
+|   ├──BSF.pdf
+|   ├──Coursera.pdf
+|   ├──Sater.pdf
+|   ├──Hakthon.pdf
+|   ├── Uqu.pdf
+|   ├── Other.pdf
+|
+└── README.md
+
+
+---
+
+## 4.  Key Features 🎨:
+
+- ✅ Fully responsive layout (mobile, tablet, desktop)
+- ✅ Glassmorphism UI and modern visual design
+- ✅ Animated hero section with custom avatar
+- ✅ Interactive soft/technical skills section
+- ✅ Certificates with filter and preview modal (PDF & images)
+- ✅ Typing animation using Typed.js
+- ✅ Scroll-triggered animations via AOS and GSAP
+- ✅ Custom cursor and dynamic scroll behavior
+- ✅ Contact form with validation and alerts
+
+---
+
+## 5.  Screenshots 📸 : 
+
+
+| Hero Section | Skills Section | Certificate Modal |
+|--------------|----------------|-------------------|
+| ![Hero](images/screenshot-hero.png) | ![Skills](images/screenshot-skills.png) | ![Modal](images/screenshot-certificate.png) |
+
+---
+
+## 6. 🚀 Hosting & Deployment
+
+This website can be hosted using:
+
+- **GitHub Pages** *(Recommended – Free and fast)*
+- **Netlify** *(Drag-and-drop deployment)*
+- **Firebase Hosting** *(Optional for larger web apps)*
+
+### Example GitHub Pages URL:
+
 
