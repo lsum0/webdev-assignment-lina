@@ -169,47 +169,26 @@ Each certificate is displayed in a filterable grid and opens in a preview modal 
 
 
 
-## 11. Challenges I Faced 🧱
+##  Challenges I Faced 🧱
 
-During the development of this interactive personal portfolio, I encountered several technical and design challenges. Here are the most notable ones:
-
-### 1. Managing Multiple JavaScript Libraries  
-Integrating libraries such as GSAP, AOS, Typed.js, and Particles.js required careful script order and configuration to avoid animation conflicts and ensure smooth loading.
-
-### 2. Building a Custom Loading Screen  
-Creating a responsive loading screen with animated rings, a logo, and a progress bar was a challenge — especially syncing it with the actual DOM content load without delays.
-
-### 3. Implementing the Custom Cursor  
-Designing and animating a dual-layer custom cursor (cursor + follower) using JS and CSS transitions while keeping performance fluid was technically demanding.
-
-### 4. Scroll-Based Animations  
-Balancing AOS and GSAP scroll animations across multiple sections required fine-tuning of timing, easing, and trigger points for the best UX.
-
-### 5. Certificate Filter System  
-Creating a fully filterable certificate section with custom tags involved DOM manipulation and event handling with pure JavaScript.
-
-### 6. Modal for Certificate Preview  
-Building a full-screen modal overlay with proper open/close behavior, image handling, and scroll-lock added complexity to UI control logic.
-
-### 7. Responsive Layout for All Devices  
-Ensuring the site looked great and functioned well on all screen sizes meant extensive use of media queries and layout testing.
-
-### 8. Right-to-Left (RTL) Design Considerations  
-Designing in Arabic with RTL direction introduced layout challenges, especially when working with animation libraries that default to LTR behavior.
-
-### 9. Animation Timing Conflicts  
-Managing animation queues and preventing overlaps between AOS, GSAP, and custom triggers needed precise coordination and structure.
-
-### 10. Keeping Code Clean and Scalable  
-As the project grew, it became important to maintain clean code practices, reuse CSS variables, and structure scripts into logical blocks for scalability.
+- Managing multiple animation libraries (GSAP, AOS, Typed.js, Particles.js)
+- Building a fully responsive and synced loading screen
+- Creating a custom dual-layer animated cursor
+- Balancing smooth animations with page performance
+- Implementing certificate filtering using vanilla JS
+- Designing modal popups to preview certificates
+- Ensuring responsive design across devices and browsers
+- Managing right-to-left (RTL) layout compatibility with animations
+- Handling animation timing and scroll-trigger issues
+- Keeping code modular, clean, and maintainable
 
 ---
 
-###  12. Solutions & Improvements ✅
-- Regular use of browser dev tools and console for debugging
-- Modular code structure with comments for easier navigation
-- Deep reading of library documentation (GSAP, AOS, Typed.js)
-- Testing responsiveness using Chrome DevTools across breakpoints
-- Gradual performance optimizations (image sizing, animation limits)
+##  Solutions & Improvements ✅
 
+- Used Chrome DevTools and JS console for debugging
+- Modularized code with clear comments and CSS custom properties
+- Consulted official docs (GSAP, AOS, Typed.js) for best practices
+- Tested performance and animations across multiple screen sizes
+- Compressed image sizes and optimized animation rendering
 ---
