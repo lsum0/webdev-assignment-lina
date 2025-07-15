@@ -138,11 +138,26 @@ The portfolio contains real assets used by the author, including:
   - Coursera.pdf
 - 🖼️ Coursera Certificates (Images):
 - ![coursera](Cou%20Fu.jpeg)
-- - ![coursera](Cou%20Ask.jpeg)
-  - - ![coursera](Cou%20Pre.jpeg)
-  - AI, Data Base, and more...
+
+-  ![coursera](Cou%20Ask.jpeg)
+
+- ![coursera](Cou%20Pre.jpeg)
+
+
+ - AI, Data Base, and more...
 
 Each certificate is displayed in a filterable grid and opens in a preview modal when clicked.
+
+
+---
+
+## 9.  Future Enhancements 📈 :
+
+-  Deploy with custom domain (e.g., lina.dev) 🌐
+-  Backend integration for contact form (EmailJS / Firebase) 📩
+-  Light/Dark mode toggle 🎨
+-  Allow download of résumé/CV PDF 💾
+-  Add blog or article publishing section 📝
 
 
 
