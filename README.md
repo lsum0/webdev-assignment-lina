@@ -34,7 +34,8 @@ The website is fully client-side, built from scratch without frameworks, and inc
 ---
 
 ## 3.  Project Structure 📂 :
- '''
+
+ ```text
  
 portfolio-website📦/
 ├── index.html
@@ -55,7 +56,7 @@ portfolio-website📦/
 │ ├── UQU.pdf
 │ └── Other.pdf
 └── README.md
-'''
+
 ---
 
 ## 4.  Key Features 🎨:
