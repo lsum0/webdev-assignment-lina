@@ -34,7 +34,8 @@ The website is fully client-side, built from scratch without frameworks, and inc
 ---
 
 ## 3.  Project Structure 📂 :
- portfolio-website 📦/
+ 
+portfolio-website📦/
 ├── index.html
 ├── styles.css
 ├── script.js
@@ -50,12 +51,9 @@ The website is fully client-side, built from scratch without frameworks, and inc
 │ ├── Coursera.pdf
 │ ├── Sater.pdf
 │ ├── Hakthon.pdf
-│ ├── Uqu.pdf
+│ ├── UQU.pdf
 │ └── Other.pdf
 └── README.md
-
-نسخ
-تحرير
 ---
 
 ## 4.  Key Features 🎨:
