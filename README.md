@@ -160,4 +160,14 @@ Each certificate is displayed in a filterable grid and opens in a preview modal 
 -  Add blog or article publishing section 📝
 
 
+----
 
+## 10.  About the Author 👩‍💼:
+
+**Lina Saud Almatrafi**  
+📍 Makkah, Saudi Arabia  
+🎓 B.Sc. in Computer Science – Umm Al-Qura University  
+🎯 Passionate about Data Science, AI, UX/UI, and creative front-end design.
+
+📧 Email: linasaud@outlook.sa  
+📱 Phone: --
