@@ -81,9 +81,15 @@ portfolio-website📦/
 ## 5.  Screenshots 📸 : 
 
 
-| Hero Section | Skills Section | Certificate Modal |
-|--------------|----------------|-------------------|
-| ![Hero](Interface.jpeg) | ![Skills](Skills.jpeg) | ![Modal](Certificates.jpeg) |
+##  Screenshots🖼️
+
+| Section          | Screenshot                              | Description                             |
+|------------------|------------------------------------------|-----------------------------------------|
+| Hero Section     | ![Hero](Interface.jpeg)                  | Landing section with animated greeting and particles |
+| Skills Section   | ![Skills](Skills.jpeg)                   | Technical & soft skills with progress bars |
+| Certificate Modal| ![Modal](Certificates.jpeg)              |       Modal preview for certificate images/PDF |
+| Flowchart        | ![Flowchart](Flowchart.png)              | Visual flow of how the site operates    |
+
 
 ---
 
