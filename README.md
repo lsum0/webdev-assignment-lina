@@ -1,4 +1,9 @@
 #  Lina Almutrafi – Personal Portfolio Website (2025)
+![Status](https://img.shields.io/badge/status-in_progress-blue)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JS](https://img.shields.io/badge/JavaScript-ES6-yellow)
+
 
 A modern, responsive, and fully animated personal portfolio website designed and developed using **HTML**, **CSS**, and **JavaScript**. This project serves as a digital résumé and showcase for my skills, certifications, projects, and contact information — all styled with attention to detail, animations, and interactivity.
 
@@ -177,7 +182,7 @@ Each certificate is displayed in a filterable grid and opens in a preview modal 
 
 
 
-##  Challenges I Faced 🧱
+## 11. Challenges I Faced 🧱
 
 During the development of this interactive personal portfolio, I encountered several technical and design challenges. Here are the most notable ones:
 
@@ -213,7 +218,7 @@ As the project grew, it became important to maintain clean code practices, reuse
 
 ---
 
-###  Solutions & Improvements ✅
+###  12. Solutions & Improvements ✅
 - Regular use of browser dev tools and console for debugging
 - Modular code structure with comments for easier navigation
 - Deep reading of library documentation (GSAP, AOS, Typed.js)
