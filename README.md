@@ -34,30 +34,28 @@ The website is fully client-side, built from scratch without frameworks, and inc
 ---
 
 ## 3.  Project Structure 📂 :
-📦 portfolio-website/
+ portfolio-website 📦/
 ├── index.html
 ├── styles.css
 ├── script.js
-├── images
-│   ├── BSF.jpeg
-│   ├── Courser.jpeg
-|   ├── Sater.jpeg
-|   ├── Hakthon.jpeg
-|   ├── UQU.jpeg
-|   ├── Other.jpeg
-│  
-│  
-|___Pdf
-|   ├──BSF.pdf
-|   ├──Coursera.pdf
-|   ├──Sater.pdf
-|   ├──Hakthon.pdf
-|   ├── Uqu.pdf
-|   ├── Other.pdf
-|
+├── images/
+│ ├── BSF.jpeg
+│ ├── Courser.jpeg
+│ ├── Sater.jpeg
+│ ├── Hakthon.jpeg
+│ ├── UQU.jpeg
+│ └── Other.jpeg
+├── Pdf/
+│ ├── BSF.pdf
+│ ├── Coursera.pdf
+│ ├── Sater.pdf
+│ ├── Hakthon.pdf
+│ ├── Uqu.pdf
+│ └── Other.pdf
 └── README.md
 
-
+نسخ
+تحرير
 ---
 
 ## 4.  Key Features 🎨:
@@ -79,7 +77,7 @@ The website is fully client-side, built from scratch without frameworks, and inc
 
 | Hero Section | Skills Section | Certificate Modal |
 |--------------|----------------|-------------------|
-| ![Hero](Interface.png) | ![Skills](Skills.png) | ![Modal](Certificate.png) |
+| ![Hero](Skills.jpeg) | ![Skills](Skills.jpeg) | ![Modal](Certificate.jpeg) |
 
 ---
 
