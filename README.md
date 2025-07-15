@@ -123,6 +123,6 @@ This chart illustrates the interactive behavior and structure of the website:
 
 ###  Flowchart Diagram 🖼️ :
 
-![Flowchart](assets/flowchart.png) 
+![Flowchart](Flowchart.png) 
 
 
