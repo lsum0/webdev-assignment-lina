@@ -137,7 +137,9 @@ The portfolio contains real assets used by the author, including:
   - Sater.pdf – Sater Academy
   - Coursera.pdf
 - 🖼️ Coursera Certificates (Images):
-- ![coursera]()
+- ![coursera](Cou%20Fu.jpeg)
+- - ![coursera](Cou%20Ask.jpeg)
+  - - ![coursera](Cou%20Pre.jpeg)
   - AI, Data Base, and more...
 
 Each certificate is displayed in a filterable grid and opens in a preview modal when clicked.
