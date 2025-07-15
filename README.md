@@ -125,4 +125,22 @@ This chart illustrates the interactive behavior and structure of the website:
 
 ![Flowchart](Flowchart.png) 
 
+---
+
+## 8.  Included Assets 📂 
+
+The portfolio contains real assets used by the author, including:
+
+-  Personal avatar/logo 🧍‍♀️
+-  PDF Certificates 📄 
+  - BSF.pdf – banquesaudifransi
+  - Sater.pdf – Sater Academy
+  - Coursera.pdf
+- 🖼️ Coursera Certificates (Images):
+- ![coursera]()
+  - AI, Data Base, and more...
+
+Each certificate is displayed in a filterable grid and opens in a preview modal when clicked.
+
+
 
