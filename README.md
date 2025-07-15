@@ -120,16 +120,14 @@ This outlines the user flow and structure of the website:
 
 ---
 
-## 8.  Included Assets 📂 
+##  Included Assets 📂 
 
-The portfolio contains real assets used by the author, including:
-
--  Personal avatar/logo 🧍‍♀️
--  PDF Certificates 📄 
-  - BSF.pdf – banquesaudifransi
-  - Sater.pdf – Sater Academy
-  - Coursera.pdf
+- PDF certificates (BSF, Coursera, UQU, etc.)
+- Image previews for Coursera, Sater, and Hackathon events
+- Personal avatar/logo (optional)
+- Animated particles background (using Particles.js)
 - 🖼️ Coursera Certificates (Images):
+
 - ![coursera](Cou%20Fu.jpeg)
 
 -  ![coursera](Cou%20Ask.jpeg)
