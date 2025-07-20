@@ -100,6 +100,7 @@ portfolio-website📦/
 
 This chart illustrates the interactive behavior and structure of the website:
 
+![Flowchart](Flowchart.png)     
 
 
 ##  Step-by-Step Breakdown 🔄
